@@ -392,7 +392,30 @@ section {
   width: 100%;
 }
 
-.experience-card {
+/* REPLACE WITH THIS: */
+.experience-badge {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  background: var(--primary);
+  color: white;
+  padding: 25px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.experience-badge .number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.experience-badge .text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* .experience-card {
   position: absolute;
   bottom: -30px;
   right: -30px;
@@ -412,7 +435,7 @@ section {
 .experience-card .text {
   font-size: 0.9rem;
   opacity: 0.9;
-}
+} */
 
 .about-text h3 {
   font-size: 1.8rem;
@@ -687,6 +710,150 @@ section {
 
   .experience-card:hover {
     transform: translateX(5px);
+  }
+}
+
+/* ========================================
+   CERTIFICATION SECTION
+   ======================================== */
+.certification {
+  background: var(--bg-alt);
+  padding: 100px 0;
+}
+
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.certification-card {
+  background: var(--bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.certification-card:hover {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.certification-image {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.certification-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.certification-card:hover .certification-image img {
+  transform: scale(1.1);
+}
+
+.certification-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 5px 20px rgba(99, 102, 241, 0.4);
+}
+
+.certification-content {
+  padding: 25px;
+}
+
+.certification-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.certification-issuer,
+.certification-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.certification-issuer svg,
+.certification-date svg {
+  color: var(--primary);
+}
+
+.certification-id {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  background: var(--bg-alt);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.certification-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.certification-skills .skill-tag {
+  padding: 5px 12px;
+  background: var(--bg-alt);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.verify-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--primary);
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.verify-btn:hover {
+  background: var(--primary-dark);
+  transform: translateX(5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .certification {
+    padding: 80px 0;
+  }
+
+  .certification-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certification-content h3 {
+    font-size: 1.1rem;
   }
 }
 /* ========================================
@@ -1101,7 +1268,9 @@ section {
     max-width: 400px;
     margin: 0 auto;
   }
-  .experience-card {
+  /* .experience-card {
+    right: 0; */
+  .experience-badge {
     right: 0;
   }
 }

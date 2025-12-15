@@ -30,8 +30,13 @@ const About = () => {
           >
             {/* ✏️ CHANGE THIS IMAGE */}
             <img src="/1000029083.jpg" alt="About" />
-            <div className="experience-card">
-              <span className="number">2+</span>
+            {/* <div className="experience-card">
+              <span className="number">1.6+</span>
+              <span className="text">Years Experience</span>
+            </div> */}
+            {/* REPLACE WITH THIS: */}
+            <div className="experience-badge">
+              <span className="number">1.5+</span>
               <span className="text">Years Experience</span>
             </div>
           </motion.div>
@@ -43,11 +48,14 @@ const About = () => {
             viewport={{ once: true }}
           >
             {/* ✏️ CHANGE ALL THIS TEXT */}
-            <h3>A Passionate Web Developer</h3>
+            <h3>A Passionate IT Expert</h3>
             <p>
-              I am a passionate web developer who loves creating beautiful and
-              functional websites. I specialize in React, JavaScript, and modern
-              web technologies.
+              I am a passionate IT Expert who loves Helping Users Succeed with
+              Technology, Solving Problem & Troubleshooting Customer, achieving
+              Satisfaction & Successfull Communication, Continuous Learning,
+              Improving Processes. I can create beautiful and functional
+              websites. I have experience in React, JavaScript, and modern web
+              technologies.
             </p>
             <p>
               When I am not coding, you will find me learning new technologies,

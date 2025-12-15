@@ -12,6 +12,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     { name: 'About', to: 'about' },
     { name: 'Skills', to: 'skills' },
     { name: 'Experience', to: 'experience' },
+    { name: 'Certifications', to: 'certification' },
     { name: 'Projects', to: 'projects' },
     { name: 'Contact', to: 'contact' },
   ]
