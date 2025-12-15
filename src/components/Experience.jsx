@@ -6,46 +6,17 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      role: 'Senior Frontend Developer',
-      company: 'Google',
-      location: 'San Francisco, USA',
-      duration: 'Jan 2022 - Present',
+      role: 'Technical Support Executive',
+      company: 'Devtriple S',
+      location: 'Dhaka, Bangladesh',
+      duration: 'June 2024 - Present',
       type: 'Full-time',
       description: [
-        'Led development of customer-facing web applications using React',
-        'Improved website performance by 40% through code optimization',
-        'Mentored junior developers and conducted code reviews',
-        'Collaborated with design team to implement responsive UI/UX',
+        'Provide technical support and assistance to customers via phone, email, or chat ,Identify', 'diagnose technical issues reported by customers, Resolve technical problems in a timely and efficient manner' , 'Assist customers with software installations and upgrades, Document and track customer issues', 'Collaborate with other teams to ensure timely resolution of customer issues',
+      
       ],
     },
-    {
-      id: 2,
-      role: 'Frontend Developer',
-      company: 'Microsoft',
-      location: 'Seattle, USA',
-      duration: 'Jun 2020 - Dec 2021',
-      type: 'Full-time',
-      description: [
-        'Developed and maintained web applications using React and TypeScript',
-        'Implemented RESTful APIs integration with backend services',
-        'Participated in agile development processes and sprint planning',
-        'Wrote unit tests achieving 85% code coverage',
-      ],
-    },
-    {
-      id: 3,
-      role: 'Web Developer Intern',
-      company: 'Amazon',
-      location: 'Remote',
-      duration: 'Jan 2020 - May 2020',
-      type: 'Internship',
-      description: [
-        'Built responsive web pages using HTML, CSS, and JavaScript',
-        'Assisted in developing React components for internal tools',
-        'Learned best practices for version control using Git',
-        'Participated in daily standups and team meetings',
-      ],
-    },
+    
   ]
 
   return (
