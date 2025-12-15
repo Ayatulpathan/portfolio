@@ -29,10 +29,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             {/* ✏️ CHANGE THIS IMAGE */}
-            <img
-              src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=500&h=600&fit=crop"
-              alt="About"
-            />
+            <img src="/1000029083.jpg" alt="About" />
             <div className="experience-card">
               <span className="number">2+</span>
               <span className="text">Years Experience</span>

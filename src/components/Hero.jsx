@@ -10,10 +10,9 @@ const Hero = () => {
 
   // ✏️ CHANGE THESE TO YOUR ROLES
   const words = [
+    'Software Support Executive',
     'Web Developer',
-    'React Developer',
-    'Frontend Developer',
-    'UI Designer',
+  
   ]
 
   useEffect(() => {
@@ -40,13 +39,13 @@ const Hero = () => {
 
   // ✏️ CHANGE THESE TO YOUR SOCIAL LINKS
   const socials = [
-    { icon: <Github size={22} />, url: 'https://github.com/yourusername' },
+    { icon: <Github size={22} />, url: 'https://github.com/Ayatulpathan' },
     {
       icon: <Linkedin size={22} />,
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://linkedin.com/in/https://www.linkedin.com/in/ayatul-pathan',
     },
-    { icon: <Twitter size={22} />, url: 'https://twitter.com/yourusername' },
-    { icon: <Mail size={22} />, url: 'mailto:your@email.com' },
+
+    { icon: <Mail size={22} />, url: 'mailto:pathanayatul@gmail.com' },
   ]
 
   return (
@@ -72,8 +71,11 @@ const Hero = () => {
           </h2>
           {/* ✏️ CHANGE TO YOUR DESCRIPTION */}
           <p>
-            I create beautiful, responsive websites and applications that
-            deliver exceptional user experiences.
+            Computer Science graduate with expertise in Software systems,
+            software troubleshooting, MIS reporting, and IT system support,
+            seeking a Software Support Executive role to deliver efficient issue
+            resolution, user training, and high-quality technical support in a
+            professional software environment.
           </p>
 
           <div className="hero-btns">
@@ -109,7 +111,7 @@ const Hero = () => {
           <div className="image-container">
             {/* ✏️ CHANGE TO YOUR PHOTO URL */}
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face"
+              src="/1000029083.jpg"
               alt="Profile"
             />
           </div>
