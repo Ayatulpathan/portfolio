@@ -99,7 +99,7 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false)
   
   //✏️ CHANGE THESE TO YOUR ROLES
-  const words = ['Web Developer', 'React Developer', 'Frontend Developer', 'UI Designer']
+  const words = ['Software Support Executive', 'Web developer']
 
   useEffect(() => {
     const currentWord = words[wordIndex]

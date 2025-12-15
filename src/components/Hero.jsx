@@ -65,7 +65,7 @@ const Hero = () => {
         >
           <span className="greeting">👋 Hello, I am</span>
           {/* ✏️ CHANGE TO YOUR NAME */}
-          <h1>Your Name Here</h1>
+          <h1>Ayatul Khan Pathan</h1>
           <h2>
             <span className="typing-text">{text}</span>
             <span className="cursor">|</span>
