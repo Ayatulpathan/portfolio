@@ -12,11 +12,12 @@ const Experience = () => {
       duration: 'June 2024 - Present',
       type: 'Full-time',
       description: [
-        'Provide technical support and assistance to customers via phone, email, or chat ,Identify', 'diagnose technical issues reported by customers, Resolve technical problems in a timely and efficient manner' , 'Assist customers with software installations and upgrades, Document and track customer issues', 'Collaborate with other teams to ensure timely resolution of customer issues',
-      
+        'Provide technical support and assistance to customers via phone, email, or chat ,Identify',
+        'diagnose technical issues reported by customers, Resolve technical problems in a timely and efficient manner',
+        'Assist customers with software installations and upgrades, Document and track customer issues',
+        'Collaborate with other teams to ensure timely resolution of customer issues',
       ],
     },
-    
   ]
 
   return (
