@@ -8,6 +8,7 @@ import {
   Github,
   Linkedin,
   Twitter,
+  Facebook,
 } from 'lucide-react'
 
 const Contact = () => {
@@ -50,28 +51,31 @@ const Contact = () => {
     {
       icon: <Mail />,
       label: 'Email',
-      value: 'your@email.com',
-      href: 'mailto:your@email.com',
+      value: 'pathanayatul@gmail.com',
+      href: 'mailto:pathanayatul@gmail.com',
     },
     {
       icon: <Phone />,
       label: 'Phone',
-      value: '+1 234 567 890',
-      href: 'tel:+1234567890',
+      value: '+8801766374700',
+      href: 'tel:+8801766374700',
     },
     {
       icon: <MapPin />,
       label: 'Location',
-      value: 'Your City, Country',
+      value: 'Dhaka, Bangladesh',
       href: '#',
     },
   ]
 
   // ✏️ CHANGE THESE TO YOUR SOCIAL LINKS
   const socials = [
-    { icon: <Github />, url: 'https://github.com/yourusername' },
-    { icon: <Linkedin />, url: 'https://linkedin.com/in/yourusername' },
-    { icon: <Twitter />, url: 'https://twitter.com/yourusername' },
+    { icon: <Github />, url: 'https://github.com/Ayatulpathan' },
+    {
+      icon: <Linkedin />,
+      url: 'www.linkedin.com/in/ayatul-pathan/',
+    },
+    { icon: <Facebook />, url: 'https://twitter.com/yourusername' },
   ]
 
   return (

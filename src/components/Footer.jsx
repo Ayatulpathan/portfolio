@@ -2,7 +2,7 @@ import { Link } from 'react-scroll'
 import { Heart, Code2 } from 'lucide-react'
 
 const Footer = () => {
-  const links = ['Home', 'About', 'Skills', 'Projects', 'Contact']
+  const links = ['Home', 'About', 'Skills','Experience','Certifications', 'Projects', 'Contact']
 
   return (
     <footer className="footer">
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer-brand">
             <Code2 size={28} />
             {/* ✏️ CHANGE TO YOUR NAME */}
-            <span>YourName</span>
+            <span>Ayatul Khan Pathan</span>
           </div>
 
           <nav className="footer-nav">
@@ -30,8 +30,9 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>
-            {/* ✏️ CHANGE TO YOUR NAME */}© {new Date().getFullYear()} Your
-            Name. Made with <Heart size={14} className="heart" /> using React
+            {/* ✏️ CHANGE TO YOUR NAME */}© {new Date().getFullYear()} Ayatul
+            Khan Pathan. Made with <Heart size={14} className="heart" /> using
+            React
           </p>
         </div>
       </div>
